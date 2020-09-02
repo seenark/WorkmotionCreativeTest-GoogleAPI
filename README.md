@@ -1,5 +1,5 @@
 # WorkmotionCreativeTest-GoogleAPI
-###fetch Restaurant from Google API
+### fetch Restaurant from Google API
 
 ### 1. Run 
 ```npm install```
