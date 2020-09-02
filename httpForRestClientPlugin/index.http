@@ -5,8 +5,7 @@
 @apiKey = AIzaSyANjmFgFg8RWsY4Ndxl49HXQbEfAwpoyQk
 
 @keyword = ขาหมู
+@place = บางกะปิ
 
-#GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=13.756343, 100.501768&radius=5000&type=restaurant&language=th&fields=formatted_address,name&keyword={{keyword}}&key=AIzaSyANjmFgFg8RWsY4Ndxl49HXQbEfAwpoyQk
-
-#GET ร้านข้าวขาหมู near bangkok
-GET {{restHost}}/restaurant?keyword={{keyword}}
+#GET ร้านข้าวขาหมู near บางกะปิ
+GET {{restHost}}/restaurant?keyword={{keyword}}&place={{place}}
